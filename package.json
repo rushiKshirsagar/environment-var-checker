@@ -1,5 +1,5 @@
 {
-  "name": "@waba/environment-var-checker",
+  "name": "environment-var-checker",
   "version": "1.0.0",
   "description": "This library ensures required environment variables are defined at runtime. It will throw warnings or errors when key variables are missing or not correctly set.",
   "main": "index.js",
