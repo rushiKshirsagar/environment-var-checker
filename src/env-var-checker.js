@@ -1,3 +1,5 @@
+import { errorConsole, successConsole } from "../constants/console-styles";
+
 class EnvChecker {
   constructor(requiredVars = []) {
     this.requiredVars = requiredVars;
@@ -18,14 +20,14 @@ class EnvChecker {
         `%cError: Missing required environment variables: ${missingVars.join(
           ", "
         )}`,
-        "background-color:lightcoral;padding:10px; margin:5px 0 5px 0;color:black"
+        errorConsole
       );
       return false;
     }
 
     console.log(
       "%cAll required environment variables are set.",
-      "background-color:green;padding:10px; margin:5px 0 5px 0;color:white"
+      successConsole
     );
     return true;
   }
