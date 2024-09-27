@@ -14,8 +14,13 @@ This library is still in beta and hasn't been thoroughly tested with all Js fram
 ### 😐 Prerequisites
 
 - node >= 18
-- .env file setup in the project. Get a list of all required vars which will be used in the array below. 
-
+- .env file setup in the project. Get a list of all required vars which will be used in the array as mentioned in the Usage section
+```
+# Sample .env for Vite
+VITE_DB_HOST=localhost
+VITE_DB_USER=root
+VITE_DB_PASS=****
+```
 ### Installing
 
 ```
