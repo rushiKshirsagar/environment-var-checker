@@ -1,0 +1,30 @@
+{
+  "name": "@waba/environment-var-checker",
+  "version": "1.0.0",
+  "description": "This library ensures required environment variables are defined at runtime. It will throw warnings or errors when key variables are missing or not correctly set.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushiKshirsagar/environment-var-checker.git"
+  },
+  "keywords": [
+    ".env",
+    "environment",
+    "variables",
+    "runtime",
+    "errors",
+    "js"
+  ],
+  "author": "waba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rushiKshirsagar/environment-var-checker/issues"
+  },
+  "homepage": "https://github.com/rushiKshirsagar/environment-var-checker#readme",
+  "devDependencies": {
+    "@types/node": "^22.7.4"
+  }
+}
